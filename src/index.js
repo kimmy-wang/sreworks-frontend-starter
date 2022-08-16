@@ -1,3 +1,3 @@
-export function add(a, b) {
-  return a + b;
-}
+import { pkg } from '@sreworks/components'
+
+console.log(pkg)
