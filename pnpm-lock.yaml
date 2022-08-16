@@ -1,0 +1,22 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers:
+      '@sreworks/components': workspace:*
+      '@sreworks/core': workspace:*
+      '@sreworks/shared': workspace:*
+    dependencies:
+      '@sreworks/components': link:packages/components
+      '@sreworks/core': link:packages/core
+      '@sreworks/shared': link:packages/shared
+
+  packages/components:
+    specifiers: {}
+
+  packages/core:
+    specifiers: {}
+
+  packages/shared:
+    specifiers: {}
