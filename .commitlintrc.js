@@ -14,7 +14,7 @@ module.exports = {
       [
         'docs',
         ...swPackages,
-      ].map(name => `$${name}`)
+      ].map(name => `$${name}`).concat('release')
     ],
     'subject-case': [0, 'never', ['sentence-case', 'start-case', 'pascal-case', 'upper-case']],
   }
