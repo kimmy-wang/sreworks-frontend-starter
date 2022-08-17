@@ -1,6 +1,6 @@
 {
   "name": "@sreworks/components",
-  "version": "0.0.0-alpha.0",
+  "version": "0.0.0-alpha.1",
   "description": "",
   "keywords": [],
   "license": "Apache-2.0",
@@ -10,7 +10,7 @@
     "compile": "babel src -d dist"
   },
   "dependencies": {
-    "@sreworks/shared": "0.0.0-alpha.0"
+    "@sreworks/shared": "^0.0.0-alpha.1"
   },
   "publishConfig": {
     "access": "public"
