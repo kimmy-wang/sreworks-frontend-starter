@@ -2155,6 +2155,17 @@
     node-addon-api "^3.2.1"
     node-gyp-build "^4.3.0"
 
+"@sreworks/components@link:./packages/components":
+  version "0.0.0"
+  uid ""
+
+"@sreworks/core@link:./packages/core":
+  version "0.0.0"
+  uid ""
+
+"@sreworks/shared@link:./packages/shared":
+  version "0.0.0-alpha.1"
+
 "@tootallnate/once@2":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-2.0.0.tgz#f544a148d3ab35801c1f633a7441fd87c2e484bf"

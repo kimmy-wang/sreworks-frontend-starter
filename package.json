@@ -18,9 +18,9 @@
     "postinstall": "husky install"
   },
   "dependencies": {
-    "@sreworks/components": "workspace:*",
-    "@sreworks/core": "workspace:*",
-    "@sreworks/shared": "workspace:*"
+    "@sreworks/components": "link:./packages/components",
+    "@sreworks/core": "link:./packages/core",
+    "@sreworks/shared": "link:./packages/shared"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",
