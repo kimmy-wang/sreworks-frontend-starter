@@ -6,6 +6,7 @@
   "license": "Apache-2.0",
   "author": "",
   "main": "dist/index.js",
+  "module": "src/index.js",
   "scripts": {
     "compile": "babel src -d dist"
   },
