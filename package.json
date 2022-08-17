@@ -13,9 +13,7 @@
   ],
   "scripts": {
     "compile": "npm-run-all compile:*",
-    "compile:components": "yarn workspace @sreworks/components compile",
-    "compile:core": "yarn workspace @sreworks/core compile",
-    "compile:shared": "yarn workspace @sreworks/shared compile",
+    "compile:packages": "yarn workspaces run compile",
     "compile:root": "babel src -d dist",
     "postinstall": "husky install"
   },
