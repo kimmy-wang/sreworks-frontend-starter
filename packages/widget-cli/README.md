@@ -1,1 +1,1 @@
-# @sreworks/shared
+# @sreworks/widget-cli

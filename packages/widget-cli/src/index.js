@@ -1,1 +1,1 @@
-export const pkg = 'shared'
+export const pkg = 'widget-cli'

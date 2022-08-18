@@ -19,8 +19,9 @@
   },
   "dependencies": {
     "@sreworks/components": "link:./packages/components",
-    "@sreworks/core": "link:./packages/core",
-    "@sreworks/shared": "link:./packages/shared"
+    "@sreworks/framework": "link:./packages/framework",
+    "@sreworks/shared": "link:./packages/shared",
+    "@sreworks/widgets": "link:./packages/widgets"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",
