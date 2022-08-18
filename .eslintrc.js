@@ -17,13 +17,19 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
+    babelOptions: {
+      presets: ['@babel/preset-react'],
+    },
   },
-  // settings: {
-  //   'import/resolver': {
-  //     'eslint-import-resolver-lerna': {
-  //       packages: [path.resolve(__dirname, 'packages'), path.resolve(__dirname, 'docs')],
-  //     },
-  //   },
-  // },
+  settings: {
+    'import/resolver': {
+      'eslint-import-resolver-lerna': {
+        packages: [path.resolve(__dirname, 'packages'), path.resolve(__dirname, 'docs')],
+      },
+    },
+  },
   rules: {},
 }

@@ -8,7 +8,7 @@
   "main": "dist/index.js",
   "module": "src/index.js",
   "scripts": {
-    "compile": "babel src -d dist"
+    "build": "rm -rf dist/* && babel src -d dist"
   },
   "dependencies": {
     "@sreworks/shared": "^0.0.0-alpha.1"
