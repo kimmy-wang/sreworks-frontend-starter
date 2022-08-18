@@ -2159,12 +2159,16 @@
   version "0.0.0"
   uid ""
 
-"@sreworks/core@link:./packages/core":
+"@sreworks/framework@link:./packages/framework":
   version "0.0.0"
   uid ""
 
 "@sreworks/shared@link:./packages/shared":
   version "0.0.0-alpha.1"
+
+"@sreworks/widgets@link:./packages/widgets":
+  version "0.0.0"
+  uid ""
 
 "@tootallnate/once@2":
   version "2.0.0"
