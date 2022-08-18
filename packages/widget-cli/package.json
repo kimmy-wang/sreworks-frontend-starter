@@ -1,0 +1,25 @@
+{
+  "name": "@sreworks/widget-cli",
+  "version": "0.0.0-alpha.1",
+  "description": "",
+  "keywords": [],
+  "license": "Apache-2.0",
+  "author": "",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "bin": {
+    "widget-cli": "bin/widget-cli.js"
+  },
+  "scripts": {
+    "compile": "babel src -d dist"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "enquirer": "^2.3.6",
+    "handlebars": "^4.7.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
