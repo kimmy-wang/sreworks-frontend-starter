@@ -1,4 +1,5 @@
 module.exports = {
+  ignore: ['src/index.js'],
   presets: [
     [
       '@babel/preset-env',
