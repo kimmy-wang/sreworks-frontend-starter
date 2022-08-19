@@ -5,12 +5,9 @@ const baseConfig = require('./webpack.config.base')
 module.exports = merge(baseConfig, {
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, 'es'),
+    path: path.resolve(process.cwd(), 'lib'),
     library: {
-      type: 'module',
+      type: 'commonjs',
     },
-  },
-  experiments: {
-    outputModule: true,
   },
 })

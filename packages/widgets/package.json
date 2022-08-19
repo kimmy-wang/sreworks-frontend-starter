@@ -7,11 +7,12 @@
   "author": "",
   "main": "lib/index.js",
   "module": "es/index.js",
+  "style": "lib/index.css",
   "scripts": {
     "build": "npm-run-all -p build:*",
-    "build:cjs": "rm -rf lib/* && babel src -d lib --config-file ./.babelrc.cjs.js --no-babelrc",
-    "build:es": "rm -rf es/* && babel src -d es --config-file ./.babelrc.es.js --no-babelrc",
-    "build:umd": "rm -rf dist/* && babel src -d dist"
+    "build:cjs": "rm -rf lib/* && webpack -c config/webpack.config.cjs.js",
+    "build:es": "rm -rf es/* && webpack -c config/webpack.config.es.js",
+    "build:umd": "rm -rf dist/* && webpack -c config/webpack.config.js"
   },
   "dependencies": {
     "@sreworks/shared": "^0.0.0-alpha.1",

@@ -1,19 +1,17 @@
-const glob = require('glob')
+const path = require('path')
 const TerserPlugin = require('terser-webpack-plugin')
-
-function getEntries() {
-  let map = {}
-  const entryFiles = glob.sync('./src/**/*.js')
-  entryFiles.forEach((filepath) => {
-    let fileDir = /.\/src\/(.*?)\.js/.exec(filepath)
-    map[fileDir[1]] = filepath
-  })
-  return map
-}
+const { getEntries } = require('./utils')
 
 module.exports = {
   entry: getEntries(),
   mode: 'production',
+  output: {
+    filename: '[name].js',
+    path: path.resolve(process.cwd(), 'dist'),
+    library: {
+      type: 'umd',
+    },
+  },
   module: {
     rules: [
       {
