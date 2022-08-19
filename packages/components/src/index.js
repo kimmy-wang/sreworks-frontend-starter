@@ -1,3 +1,2 @@
-export { pkg as sPkgName } from '@sreworks/shared'
-
-export const pkg = 'components'
+export { default as Hello } from './Hello'
+export { default as World } from './World'

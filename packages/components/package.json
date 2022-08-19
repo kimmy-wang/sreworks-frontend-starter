@@ -5,13 +5,17 @@
   "keywords": [],
   "license": "Apache-2.0",
   "author": "",
-  "main": "dist/index.js",
-  "module": "src/index.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "scripts": {
-    "build": "rm -rf dist/* && babel src -d dist"
+    "build": "npm-run-all -p build:*",
+    "build:cjs": "rm -rf lib/* && webpack -c webpack.config.cjs.js",
+    "build:es": "rm -rf es/* && webpack -c webpack.config.es.js",
+    "build:umd": "rm -rf dist/* && webpack"
   },
   "dependencies": {
-    "@sreworks/shared": "^0.0.0-alpha.1"
+    "@sreworks/shared": "^0.0.0-alpha.1",
+    "react": "^17.0.2"
   },
   "publishConfig": {
     "access": "public"
