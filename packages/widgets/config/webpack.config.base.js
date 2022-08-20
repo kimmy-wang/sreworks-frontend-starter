@@ -1,5 +1,6 @@
 const TerserPlugin = require('terser-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const { getEntries } = require('./utils')
 
 module.exports = {
@@ -41,6 +42,34 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.s[ac]ss$/i,
+        use: [
+          // 将 JS 字符串生成为 style 节点
+          MiniCssExtractPlugin.loader,
+          // 将 CSS 转化成 CommonJS 模块
+          'css-loader',
+          // 将 Sass 编译成 CSS
+          {
+            loader: 'sass-loader',
+            options: {
+              sassOptions: {
+                charset: false,
+              },
+            },
+          },
+        ],
+      },
+      {
+        test: /\.styl/i,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          {
+            loader: 'stylus-loader',
+          },
+        ],
+      },
     ],
   },
   plugins: [new MiniCssExtractPlugin()],
@@ -55,6 +84,7 @@ module.exports = {
         },
         extractComments: false,
       }),
+      new CssMinimizerPlugin(),
     ],
   },
 }
