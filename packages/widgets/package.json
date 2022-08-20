@@ -12,7 +12,7 @@
     "build": "rm -rf lib es dist && sw-tools-build"
   },
   "dependencies": {
-    "@sreworks/shared": "^0.0.0-alpha.1",
+    "@sreworks/shared-utils": "^0.0.0-alpha.1",
     "@sreworks/tools": "^0.0.0-alpha.1",
     "react": "17.0.2"
   },
