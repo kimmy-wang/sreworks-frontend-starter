@@ -1,14 +1,13 @@
 {
-  "name": "@sreworks/widget-cli",
+  "name": "@sreworks/tools",
   "version": "0.0.0-alpha.1",
   "description": "",
   "keywords": [],
   "license": "Apache-2.0",
   "author": "",
-  "main": "dist/index.js",
-  "module": "src/index.js",
   "bin": {
-    "widget-cli": "bin/widget-cli.js"
+    "sw-tools": "bin/sw-tools.js",
+    "sw-tools-build": "bin/sw-tools-build.js"
   },
   "scripts": {
     "build": "rm -rf dist/* && babel src -d dist"
@@ -17,7 +16,9 @@
     "chalk": "^4.1.2",
     "commander": "^9.4.0",
     "enquirer": "^2.3.6",
-    "handlebars": "^4.7.7"
+    "gulp": "^4.0.2",
+    "handlebars": "^4.7.7",
+    "is-windows": "^1.0.2"
   },
   "publishConfig": {
     "access": "public"
