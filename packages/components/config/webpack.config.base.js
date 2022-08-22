@@ -73,6 +73,22 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(jpg|png)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+          },
+        ],
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: '@svgr/webpack',
+          },
+        ],
+      },
     ],
   },
   plugins: [new MiniCssExtractPlugin()],
