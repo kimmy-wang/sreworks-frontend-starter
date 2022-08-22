@@ -6,10 +6,13 @@ const { getEntries } = require('./utils')
 module.exports = {
   entry: getEntries(),
   mode: 'production',
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   module: {
     rules: [
       {
-        test: /\.m?js$/,
+        test: /\.jsx?$/,
         exclude: /(node_modules)/,
         use: {
           loader: 'babel-loader',

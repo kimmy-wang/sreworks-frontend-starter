@@ -9,11 +9,13 @@
   "module": "es/index.js",
   "style": "lib/index.css",
   "scripts": {
-    "build": "rm -rf lib es dist && sw-tools-build"
+    "build": "npm-run-all -p build:*",
+    "build:cjs": "rm -rf lib/* && webpack -c config/webpack.config.cjs.js",
+    "build:es": "rm -rf es/* && webpack -c config/webpack.config.es.js",
+    "build:umd": "rm -rf dist/* && webpack -c config/webpack.config.js"
   },
   "dependencies": {
     "@sreworks/shared-utils": "^0.0.0-alpha.1",
-    "@sreworks/tools": "^0.0.0-alpha.1",
     "react": "17.0.2"
   },
   "publishConfig": {
