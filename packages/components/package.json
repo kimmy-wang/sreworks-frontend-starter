@@ -1,6 +1,6 @@
 {
   "name": "@sreworks-starter/components",
-  "version": "0.0.0-alpha.2",
+  "version": "0.0.0-alpha.3",
   "description": "",
   "keywords": [],
   "license": "Apache-2.0",
@@ -15,7 +15,7 @@
     "build:umd": "rm -rf dist/* && webpack -c config/webpack.config.js"
   },
   "dependencies": {
-    "@sreworks-starter/shared-utils": "^0.0.0-alpha.1",
+    "@sreworks-starter/shared-utils": "^0.0.0-alpha.3",
     "react": "~17.0.2"
   },
   "publishConfig": {
