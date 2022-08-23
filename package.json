@@ -17,10 +17,10 @@
     "postinstall": "husky install"
   },
   "dependencies": {
-    "@sreworks/components": "link:./packages/components",
-    "@sreworks/framework": "link:./packages/framework",
-    "@sreworks/shared-utils": "link:./packages/shared-utils",
-    "@sreworks/widgets": "link:./packages/widgets"
+    "@sreworks-starter/components": "link:./packages/components",
+    "@sreworks-starter/framework": "link:./packages/framework",
+    "@sreworks-starter/shared-utils": "link:./packages/shared-utils",
+    "@sreworks-starter/widgets": "link:./packages/widgets"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",

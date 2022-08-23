@@ -2257,18 +2257,18 @@
     node-addon-api "^3.2.1"
     node-gyp-build "^4.3.0"
 
-"@sreworks/components@link:./packages/components":
+"@sreworks-starter/components@link:./packages/components":
   version "0.0.0"
   uid ""
 
-"@sreworks/framework@link:./packages/framework":
+"@sreworks-starter/framework@link:./packages/framework":
   version "0.0.0"
   uid ""
 
-"@sreworks/shared-utils@link:./packages/shared-utils":
-  version "0.0.0-alpha.1"
+"@sreworks-starter/shared-utils@link:./packages/shared-utils":
+  version "0.0.0-alpha.2"
 
-"@sreworks/widgets@link:./packages/widgets":
+"@sreworks-starter/widgets@link:./packages/widgets":
   version "0.0.0"
   uid ""
 
