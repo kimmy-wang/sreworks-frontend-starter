@@ -8,10 +8,10 @@
   "main": "dist/index.js",
   "module": "src/index.js",
   "scripts": {
-    "build": "rm -rf dist/* && babel src -d dist"
+    "build": "rm -rf dist && babel src -d dist"
   },
   "dependencies": {
-    "@sreworks-starter/shared-utils": "^0.0.0-alpha.3"
+    "@sreworks-starter/shared-utils": "workspace:^"
   },
   "publishConfig": {
     "access": "public"

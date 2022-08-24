@@ -9,13 +9,13 @@
   "module": "es/index.js",
   "style": "lib/index.css",
   "scripts": {
-    "build": "npm-run-all -p build:*",
-    "build:cjs": "rm -rf lib/* && webpack -c config/webpack.config.cjs.js",
-    "build:es": "rm -rf es/* && webpack -c config/webpack.config.es.js",
-    "build:umd": "rm -rf dist/* && webpack -c config/webpack.config.js"
+    "build": "npm-run-all -p build:cjs build:es build:umd",
+    "build:cjs": "rm -rf lib && webpack -c config/webpack.config.cjs.js",
+    "build:es": "rm -rf es && webpack -c config/webpack.config.es.js",
+    "build:umd": "rm -rf dist && webpack -c config/webpack.config.js"
   },
   "dependencies": {
-    "@sreworks-starter/shared-utils": "^0.0.0-alpha.3",
+    "@sreworks-starter/shared-utils": "workspace:^",
     "react": "~17.0.2"
   },
   "publishConfig": {

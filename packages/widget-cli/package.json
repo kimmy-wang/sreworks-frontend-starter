@@ -7,11 +7,9 @@
   "author": "",
   "main": "dist/index.js",
   "module": "src/index.js",
-  "bin": {
-    "widget-cli": "bin/widget-cli.js"
-  },
+  "bin": "bin/widget-cli.js",
   "scripts": {
-    "build": "rm -rf dist/* && babel src -d dist"
+    "build": "rm -rf dist && babel src -d dist"
   },
   "dependencies": {
     "chalk": "~4.1.2",
