@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.0.0-alpha.6](https://github.com/see/sreworks-frontend-starter/compare/v0.0.0-alpha.5...v0.0.0-alpha.6) (2022-08-24)
+
+
+### Bug Fixes
+
+* update package.json ([852f9fb](https://github.com/see/sreworks-frontend-starter/commit/852f9fb102c9549abddbef149781ef086d6e5f5d))
+
+
+
+
+
 # [0.0.0-alpha.5](https://github.com/see/sreworks-frontend-starter/compare/v0.0.0-alpha.4...v0.0.0-alpha.5) (2022-08-24)
 
 **Note:** Version bump only for package @sreworks-starter/components
