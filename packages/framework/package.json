@@ -15,5 +15,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "installConfig": {
+    "hoistingLimits": "workspaces"
   }
 }
