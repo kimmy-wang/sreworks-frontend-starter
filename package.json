@@ -16,9 +16,9 @@
     "postinstall": "husky install"
   },
   "dependencies": {
-    "@sreworks-starter/components": "workspace:^",
-    "@sreworks-starter/framework": "workspace:^",
-    "@sreworks-starter/widgets": "workspace:^"
+    "@sreworks-starter/components": "link:./packages/components",
+    "@sreworks-starter/framework": "link:./packages/framework",
+    "@sreworks-starter/widgets": "link:./packages/widgets"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",
