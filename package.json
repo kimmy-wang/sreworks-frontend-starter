@@ -18,7 +18,6 @@
   "dependencies": {
     "@sreworks-starter/components": "workspace:^",
     "@sreworks-starter/framework": "workspace:^",
-    "@sreworks-starter/shared-utils": "workspace:^",
     "@sreworks-starter/widgets": "workspace:^"
   },
   "devDependencies": {

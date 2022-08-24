@@ -2937,7 +2937,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/components@workspace:packages/components"
   dependencies:
-    "@sreworks-starter/shared-utils": "workspace:^"
+    "@sreworks-starter/shared-utils": ^0.0.0-alpha.3
     react: ~17.0.2
   languageName: unknown
   linkType: soft
@@ -2946,11 +2946,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/framework@workspace:packages/framework"
   dependencies:
-    "@sreworks-starter/shared-utils": "workspace:^"
+    "@sreworks-starter/shared-utils": ^0.0.0-alpha.3
   languageName: unknown
   linkType: soft
 
-"@sreworks-starter/shared-utils@workspace:^, @sreworks-starter/shared-utils@workspace:packages/shared-utils":
+"@sreworks-starter/shared-utils@^0.0.0-alpha.3, @sreworks-starter/shared-utils@workspace:packages/shared-utils":
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/shared-utils@workspace:packages/shared-utils"
   languageName: unknown
@@ -2989,7 +2989,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/widgets@workspace:packages/widgets"
   dependencies:
-    "@sreworks-starter/shared-utils": "workspace:^"
+    "@sreworks-starter/shared-utils": ^0.0.0-alpha.3
     react: ~17.0.2
   languageName: unknown
   linkType: soft
@@ -11774,7 +11774,6 @@ __metadata:
     "@commitlint/config-conventional": ^17.0.3
     "@sreworks-starter/components": "workspace:^"
     "@sreworks-starter/framework": "workspace:^"
-    "@sreworks-starter/shared-utils": "workspace:^"
     "@sreworks-starter/widgets": "workspace:^"
     "@svgr/webpack": ^6.3.1
     babel-loader: ^8.2.5
