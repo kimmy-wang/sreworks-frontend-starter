@@ -37,6 +37,9 @@ module.exports = {
             loader: 'css-loader',
           },
           {
+            loader: 'postcss-loader',
+          },
+          {
             loader: 'less-loader',
             options: {
               lessOptions: {
@@ -54,6 +57,9 @@ module.exports = {
           'style-loader',
           // 将 CSS 转化成 CommonJS 模块
           'css-loader',
+          {
+            loader: 'postcss-loader',
+          },
           // 将 Sass 编译成 CSS
           {
             loader: 'sass-loader',
@@ -70,6 +76,9 @@ module.exports = {
         use: [
           'style-loader',
           'css-loader',
+          {
+            loader: 'postcss-loader',
+          },
           {
             loader: 'stylus-loader',
           },

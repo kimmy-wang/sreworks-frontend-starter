@@ -25,7 +25,13 @@ module.exports = {
         // 匹配.css结尾的文件，i是不区别大小写
         test: /\.css$/i,
         // 从右往左执行，不能改变顺序style-loader是 CSS 插入到 DOM 中，css- loader是对 @import 和 url() 进行处理，就像 js 解析 import /require() 一样
-        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          {
+            loader: 'postcss-loader',
+          },
+        ],
       },
       {
         test: /\.less$/i,
@@ -33,6 +39,9 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           {
             loader: 'css-loader',
+          },
+          {
+            loader: 'postcss-loader',
           },
           {
             loader: 'less-loader',
@@ -52,6 +61,9 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           // 将 CSS 转化成 CommonJS 模块
           'css-loader',
+          {
+            loader: 'postcss-loader',
+          },
           // 将 Sass 编译成 CSS
           {
             loader: 'sass-loader',
@@ -68,6 +80,9 @@ module.exports = {
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
+          {
+            loader: 'postcss-loader',
+          },
           {
             loader: 'stylus-loader',
           },
