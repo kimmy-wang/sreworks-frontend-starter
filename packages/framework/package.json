@@ -13,6 +13,11 @@
   "dependencies": {
     "@sreworks-starter/shared-utils": "^0.0.0-alpha.9"
   },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10"
+  },
   "publishConfig": {
     "access": "public"
   },

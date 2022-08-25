@@ -20,6 +20,11 @@
     "handlebars": "^4.7.7",
     "is-windows": "^1.0.2"
   },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10"
+  },
   "publishConfig": {
     "access": "public"
   },

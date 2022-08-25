@@ -2933,55 +2933,45 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sreworks-starter/app@workspace:app":
+  version: 0.0.0-use.local
+  resolution: "@sreworks-starter/app@workspace:app"
+  dependencies:
+    "@babel/cli": ^7.18.10
+    "@babel/core": ^7.18.10
+    "@babel/preset-env": ^7.18.10
+    "@babel/preset-react": ^7.18.6
+    "@sreworks-starter/components": ^0.0.0-alpha.9
+    "@sreworks-starter/framework": ^0.0.0-alpha.9
+    "@sreworks-starter/widgets": ^0.0.0-alpha.9
+  languageName: unknown
+  linkType: soft
+
+"@sreworks-starter/components@link:./packages/components::locator=%40sreworks-starter%2Fmonorepo%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@sreworks-starter/components@link:./packages/components::locator=%40sreworks-starter%2Fmonorepo%40workspace%3A."
+  languageName: node
+  linkType: soft
+
 "@sreworks-starter/components@workspace:packages/components":
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/components@workspace:packages/components"
   dependencies:
-    "@sreworks-starter/shared-utils": ^0.0.0-alpha.8
-    react: ~17.0.2
-  languageName: unknown
-  linkType: soft
-
-"@sreworks-starter/framework@workspace:packages/framework":
-  version: 0.0.0-use.local
-  resolution: "@sreworks-starter/framework@workspace:packages/framework"
-  dependencies:
-    "@sreworks-starter/shared-utils": ^0.0.0-alpha.8
-  languageName: unknown
-  linkType: soft
-
-"@sreworks-starter/monorepo@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@sreworks-starter/monorepo@workspace:."
-  dependencies:
     "@babel/cli": ^7.18.10
     "@babel/core": ^7.18.10
-    "@babel/eslint-parser": ^7.18.9
     "@babel/preset-env": ^7.18.10
     "@babel/preset-react": ^7.18.6
-    "@commitlint/cli": ^17.0.3
-    "@commitlint/config-conventional": ^17.0.3
+    "@sreworks-starter/shared-utils": ^0.0.0-alpha.9
     "@svgr/webpack": ^6.3.1
     babel-loader: ^8.2.5
     css-loader: ^6.7.1
     css-minimizer-webpack-plugin: ^4.0.0
-    eslint: ^8.22.0
-    eslint-config-prettier: ^8.5.0
-    eslint-import-resolver-lerna: ^2.0.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-prettier: ^4.2.1
-    husky: ^8.0.1
-    lerna: ^5.4.3
     less: ^4.1.3
     less-loader: ^11.0.0
-    lint-staged: ^13.0.3
     mini-css-extract-plugin: ^2.6.1
-    npm-run-all: ^4.1.5
-    prettier: ^2.7.1
-    rimraf: ^3.0.2
+    react: ~17.0.2
     sass: ^1.54.5
     sass-loader: ^13.0.2
-    sort-package-json: ^1.57.0
     style-loader: ^3.3.1
     stylus: ^0.59.0
     stylus-loader: ^7.0.0
@@ -2993,9 +2983,60 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sreworks-starter/shared-utils@^0.0.0-alpha.8, @sreworks-starter/shared-utils@workspace:packages/shared-utils":
+"@sreworks-starter/docs@workspace:docs":
+  version: 0.0.0-use.local
+  resolution: "@sreworks-starter/docs@workspace:docs"
+  languageName: unknown
+  linkType: soft
+
+"@sreworks-starter/framework@link:./packages/framework::locator=%40sreworks-starter%2Fmonorepo%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@sreworks-starter/framework@link:./packages/framework::locator=%40sreworks-starter%2Fmonorepo%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@sreworks-starter/framework@workspace:packages/framework":
+  version: 0.0.0-use.local
+  resolution: "@sreworks-starter/framework@workspace:packages/framework"
+  dependencies:
+    "@babel/cli": ^7.18.10
+    "@babel/core": ^7.18.10
+    "@babel/preset-env": ^7.18.10
+    "@sreworks-starter/shared-utils": ^0.0.0-alpha.9
+  languageName: unknown
+  linkType: soft
+
+"@sreworks-starter/monorepo@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@sreworks-starter/monorepo@workspace:."
+  dependencies:
+    "@babel/cli": ^7.18.10
+    "@babel/core": ^7.18.10
+    "@babel/eslint-parser": ^7.18.9
+    "@commitlint/cli": ^17.0.3
+    "@commitlint/config-conventional": ^17.0.3
+    eslint: ^8.22.0
+    eslint-config-prettier: ^8.5.0
+    eslint-import-resolver-lerna: ^2.0.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-prettier: ^4.2.1
+    husky: ^8.0.1
+    lerna: ^5.4.3
+    lint-staged: ^13.0.3
+    npm-run-all: ^4.1.5
+    prettier: ^2.7.1
+    rimraf: ^3.0.2
+    sort-package-json: ^1.57.0
+  languageName: unknown
+  linkType: soft
+
+"@sreworks-starter/shared-utils@^0.0.0-alpha.9, @sreworks-starter/shared-utils@workspace:packages/shared-utils":
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/shared-utils@workspace:packages/shared-utils"
+  dependencies:
+    "@babel/cli": ^7.18.10
+    "@babel/core": ^7.18.10
+    "@babel/preset-env": ^7.18.10
   languageName: unknown
   linkType: soft
 
@@ -3003,6 +3044,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/tools@workspace:packages/tools"
   dependencies:
+    "@babel/cli": ^7.18.10
+    "@babel/core": ^7.18.10
+    "@babel/preset-env": ^7.18.10
     chalk: ~4.1.2
     commander: ^9.4.0
     enquirer: ^2.3.6
@@ -3019,6 +3063,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/widget-cli@workspace:packages/widget-cli"
   dependencies:
+    "@babel/cli": ^7.18.10
+    "@babel/core": ^7.18.10
+    "@babel/preset-env": ^7.18.10
     chalk: ~4.1.2
     commander: ^9.4.0
     enquirer: ^2.3.6
@@ -3028,12 +3075,39 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@sreworks-starter/widgets@link:./packages/widgets::locator=%40sreworks-starter%2Fmonorepo%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@sreworks-starter/widgets@link:./packages/widgets::locator=%40sreworks-starter%2Fmonorepo%40workspace%3A."
+  languageName: node
+  linkType: soft
+
 "@sreworks-starter/widgets@workspace:packages/widgets":
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/widgets@workspace:packages/widgets"
   dependencies:
-    "@sreworks-starter/shared-utils": ^0.0.0-alpha.8
+    "@babel/cli": ^7.18.10
+    "@babel/core": ^7.18.10
+    "@babel/preset-env": ^7.18.10
+    "@babel/preset-react": ^7.18.6
+    "@sreworks-starter/shared-utils": ^0.0.0-alpha.9
+    "@svgr/webpack": ^6.3.1
+    babel-loader: ^8.2.5
+    css-loader: ^6.7.1
+    css-minimizer-webpack-plugin: ^4.0.0
+    less: ^4.1.3
+    less-loader: ^11.0.0
+    mini-css-extract-plugin: ^2.6.1
     react: ~17.0.2
+    sass: ^1.54.5
+    sass-loader: ^13.0.2
+    style-loader: ^3.3.1
+    stylus: ^0.59.0
+    stylus-loader: ^7.0.0
+    terser-webpack-plugin: ^5.3.5
+    url-loader: ^4.1.1
+    webpack: ^5.74.0
+    webpack-cli: ^4.10.0
+    webpack-merge: ^5.8.0
   languageName: unknown
   linkType: soft
 
@@ -4435,9 +4509,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001370":
-  version: 1.0.30001382
-  resolution: "caniuse-lite@npm:1.0.30001382"
-  checksum: 186ec65230bf315c4dbfb2785be811653869aaa7713c5e83dfa9ca9396be371f5e02a0dfe56b9c7069ad9ecff811d316b507d8a7c700d429e423d8808dee5771
+  version: 1.0.30001383
+  resolution: "caniuse-lite@npm:1.0.30001383"
+  checksum: 1830129858510163f6acfbeaf258e0a84061091901ea349ee12541cc04997a25dc17d0ba731e8518711d87f0e08fee2a762aa89264d86be5f329300d0ff9d421
   languageName: node
   linkType: hard
 
@@ -5041,12 +5115,12 @@ __metadata:
   linkType: hard
 
 "core-js-compat@npm:^3.21.0, core-js-compat@npm:^3.22.1":
-  version: 3.24.1
-  resolution: "core-js-compat@npm:3.24.1"
+  version: 3.25.0
+  resolution: "core-js-compat@npm:3.25.0"
   dependencies:
     browserslist: ^4.21.3
     semver: 7.0.0
-  checksum: b14516add9d59a9fae3b96d0de6e1d8864df80b714232814fce56ce946af3696cb50a4f83c717f8f36e43e1a37adf99a4cde6fc921e6ee56021eee2ea3bdc4dc
+  checksum: a40e072a67e65f34cb4b3a85bfdbbfcb0f3e1e2e171718763b13da4da897b5b6228603468027a0920096f0ee7e2c3906de95e26c9b6fe8f9595552bf2bc8f852
   languageName: node
   linkType: hard
 
@@ -5645,9 +5719,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.202":
-  version: 1.4.228
-  resolution: "electron-to-chromium@npm:1.4.228"
-  checksum: 962fdab942d9ddb8dfe2fb2f800da20445ac62599c50bdfa714a656f3ef8d8d302803da3d4d63f7d2a142628ab62b55795985e371361e6a30ce02d1db46f7a1a
+  version: 1.4.230
+  resolution: "electron-to-chromium@npm:1.4.230"
+  checksum: 882245dfcff83ea5851f1176d5616e8f4a8566f5f42fe2bae70d9f6e0c028d37f32a7e4db1e31d9d13614204696965d60d863fad1556a9dbc78f69c179630373
   languageName: node
   linkType: hard
 

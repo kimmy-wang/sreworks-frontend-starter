@@ -17,6 +17,11 @@
     "enquirer": "^2.3.6",
     "handlebars": "^4.7.7"
   },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10"
+  },
   "publishConfig": {
     "access": "public"
   },
