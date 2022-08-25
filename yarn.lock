@@ -2937,7 +2937,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/components@workspace:packages/components"
   dependencies:
-    "@sreworks-starter/shared-utils": ^0.0.0-alpha.7
+    "@sreworks-starter/shared-utils": ^0.0.0-alpha.8
     react: ~17.0.2
   languageName: unknown
   linkType: soft
@@ -2946,7 +2946,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/framework@workspace:packages/framework"
   dependencies:
-    "@sreworks-starter/shared-utils": ^0.0.0-alpha.7
+    "@sreworks-starter/shared-utils": ^0.0.0-alpha.8
   languageName: unknown
   linkType: soft
 
@@ -2993,7 +2993,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sreworks-starter/shared-utils@^0.0.0-alpha.7, @sreworks-starter/shared-utils@workspace:packages/shared-utils":
+"@sreworks-starter/shared-utils@^0.0.0-alpha.8, @sreworks-starter/shared-utils@workspace:packages/shared-utils":
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/shared-utils@workspace:packages/shared-utils"
   languageName: unknown
@@ -3032,7 +3032,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/widgets@workspace:packages/widgets"
   dependencies:
-    "@sreworks-starter/shared-utils": ^0.0.0-alpha.7
+    "@sreworks-starter/shared-utils": ^0.0.0-alpha.8
     react: ~17.0.2
   languageName: unknown
   linkType: soft
