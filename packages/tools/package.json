@@ -14,16 +14,16 @@
   },
   "dependencies": {
     "chalk": "~4.1.2",
-    "commander": "^9.4.0",
-    "enquirer": "^2.3.6",
-    "gulp": "^4.0.2",
-    "handlebars": "^4.7.7",
-    "is-windows": "^1.0.2"
+    "commander": "9.4.0",
+    "enquirer": "2.3.6",
+    "gulp": "4.0.2",
+    "handlebars": "4.7.7",
+    "is-windows": "1.0.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.18.10",
-    "@babel/core": "^7.18.10",
-    "@babel/preset-env": "^7.18.10"
+    "@babel/cli": "7.18.10",
+    "@babel/core": "7.18.13",
+    "@babel/preset-env": "7.18.10"
   },
   "publishConfig": {
     "access": "public"
