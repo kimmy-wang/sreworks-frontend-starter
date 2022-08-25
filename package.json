@@ -1,26 +1,20 @@
 {
-  "name": "sreworks-frontend-starter",
+  "name": "@sreworks-starter/monorepo",
   "private": true,
   "description": "",
   "keywords": [],
   "license": "Apache-2.0",
   "author": "",
-  "main": "dist/index.js",
   "workspaces": [
     "packages/**",
+    "app/*",
     "docs/*"
   ],
   "scripts": {
     "build:all": "yarn workspaces foreach run build",
-    "build": "rimraf dist && babel src -d dist",
     "postinstall": "husky install"
   },
   "resolutions": {
-    "@sreworks-starter/components": "link:./packages/components",
-    "@sreworks-starter/framework": "link:./packages/framework",
-    "@sreworks-starter/widgets": "link:./packages/widgets"
-  },
-  "dependencies": {
     "@sreworks-starter/components": "link:./packages/components",
     "@sreworks-starter/framework": "link:./packages/framework",
     "@sreworks-starter/widgets": "link:./packages/widgets"
