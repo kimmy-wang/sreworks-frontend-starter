@@ -6,9 +6,9 @@
   "license": "Apache-2.0",
   "author": "",
   "workspaces": [
-    "packages/**",
-    "app/**",
-    "docs/**"
+    "packages/*",
+    "app",
+    "docs"
   ],
   "scripts": {
     "build:all": "yarn workspaces foreach run build",
