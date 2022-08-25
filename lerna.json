@@ -13,7 +13,7 @@
     "app/*",
     "docs/*"
   ],
-  "version": "0.0.0-alpha.6",
+  "version": "0.0.0-alpha.7",
   "npmClient": "yarn",
   "useWorkspaces": true
 }
