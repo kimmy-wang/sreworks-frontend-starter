@@ -1,5 +1,3 @@
-const path = require('path')
-
 module.exports = {
   parser: '@babel/eslint-parser',
   env: {
@@ -22,13 +20,6 @@ module.exports = {
     },
     babelOptions: {
       presets: ['@babel/preset-react'],
-    },
-  },
-  settings: {
-    'import/resolver': {
-      'eslint-import-resolver-lerna': {
-        packages: [path.resolve(__dirname, 'packages'), path.resolve(__dirname, 'docs')],
-      },
     },
   },
   rules: {},
