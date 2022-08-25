@@ -1,0 +1,27 @@
+{
+  "name": "react",
+  "version": "0.0.0-alpha.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "dependencies": {
+    "@sreworks-starter/components": "^0.0.0-alpha.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "2.0.1",
+    "vite": "3.0.9"
+  },
+  "installConfig": {
+    "hoistingLimits": "workspaces"
+  }
+}

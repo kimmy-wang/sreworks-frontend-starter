@@ -8,7 +8,8 @@
   "workspaces": [
     "packages/*",
     "app",
-    "docs"
+    "docs",
+    "playground/*"
   ],
   "scripts": {
     "build:all": "yarn workspaces foreach run build",
