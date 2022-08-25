@@ -11,9 +11,9 @@
     "build": "rimraf dist && babel src -d dist"
   },
   "devDependencies": {
-    "@babel/cli": "^7.18.10",
-    "@babel/core": "^7.18.10",
-    "@babel/preset-env": "^7.18.10"
+    "@babel/cli": "7.18.10",
+    "@babel/core": "7.18.13",
+    "@babel/preset-env": "7.18.10"
   },
   "publishConfig": {
     "access": "public"
