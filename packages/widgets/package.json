@@ -1,6 +1,6 @@
 {
   "name": "@sreworks-starter/widgets",
-  "version": "0.0.0-alpha.8",
+  "version": "0.0.0-alpha.9",
   "description": "",
   "keywords": [],
   "license": "Apache-2.0",
@@ -15,7 +15,7 @@
     "build:umd": "rimraf dist && webpack -c config/webpack.config.js"
   },
   "dependencies": {
-    "@sreworks-starter/shared-utils": "^0.0.0-alpha.8",
+    "@sreworks-starter/shared-utils": "^0.0.0-alpha.9",
     "react": "~17.0.2"
   },
   "publishConfig": {

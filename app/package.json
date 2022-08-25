@@ -1,6 +1,6 @@
 {
   "name": "@sreworks-starter/app",
-  "version": "0.0.0-alpha.8",
+  "version": "0.0.0-alpha.9",
   "private": true,
   "description": "",
   "keywords": [],
@@ -11,8 +11,8 @@
     "build": "rimraf dist && babel src -d dist"
   },
   "dependencies": {
-    "@sreworks-starter/components": "^0.0.0-alpha.8",
-    "@sreworks-starter/framework": "^0.0.0-alpha.8",
-    "@sreworks-starter/widgets": "^0.0.0-alpha.8"
+    "@sreworks-starter/components": "^0.0.0-alpha.9",
+    "@sreworks-starter/framework": "^0.0.0-alpha.9",
+    "@sreworks-starter/widgets": "^0.0.0-alpha.9"
   }
 }
