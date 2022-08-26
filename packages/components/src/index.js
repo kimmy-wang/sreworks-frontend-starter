@@ -1,1 +1,1 @@
-export { ABMLoading } from './ABMLoading'
+export { Loading } from './Loading'

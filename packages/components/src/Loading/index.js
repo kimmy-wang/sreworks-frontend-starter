@@ -3,7 +3,7 @@ import classNames from 'classnames'
 import PropTypes from 'prop-types'
 import styles from './index.module.less'
 
-export class ABMLoading extends Component {
+export class Loading extends Component {
   render() {
     const { platformName } = this.props
     return (
@@ -27,6 +27,6 @@ export class ABMLoading extends Component {
   }
 }
 
-ABMLoading.propTypes = {
+Loading.propTypes = {
   platformName: PropTypes.string,
 }

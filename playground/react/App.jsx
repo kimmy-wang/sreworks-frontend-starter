@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ABMLoading } from '@sreworks-starter/components'
+import { Loading } from '@sreworks-starter/components'
 import Dummy from './components/Dummy?qs-should-not-break-plugin-react'
 
 import '@sreworks-starter/components/es/ABMLoading/index.css'
@@ -28,7 +28,7 @@ function App() {
 
       <Dummy />
 
-      <ABMLoading platformName={'title'} />
+      <Loading platformName={'title'} />
     </div>
   )
 }

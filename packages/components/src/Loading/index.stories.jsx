@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { ABMLoading } from '.'
+import { Loading } from '.'
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'Example/ABMLoading',
-  component: ABMLoading,
+  title: 'Example/Loading',
+  component: Loading,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   // argTypes: {
   //   backgroundColor: { control: 'color' },
@@ -13,10 +13,10 @@ export default {
 }
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template = (args) => <ABMLoading {...args} />
+const Template = (args) => <Loading {...args} />
 
-export const Loading = Template.bind({})
+export const LoadingComp = Template.bind({})
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-Loading.args = {
+LoadingComp.args = {
   platformName: 'Loading',
 }
