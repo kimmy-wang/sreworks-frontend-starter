@@ -15,8 +15,8 @@ export default {
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template = (args) => <ABMLoading {...args} />
 
-export const Primary = Template.bind({})
+export const Loading = Template.bind({})
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-Primary.args = {
-  platformName: 'Button',
+Loading.args = {
+  platformName: 'Loading',
 }
