@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import classNames from 'classnames'
+import PropTypes from 'prop-types'
 import styles from './index.module.less'
 
 export class ABMLoading extends Component {
@@ -24,4 +25,8 @@ export class ABMLoading extends Component {
       </div>
     )
   }
+}
+
+ABMLoading.propTypes = {
+  platformName: PropTypes.string,
 }
