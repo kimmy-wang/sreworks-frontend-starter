@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { Loading } from '.'
+import LessDemo from '.'
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'Components/Loading',
-  component: Loading,
+  title: 'Widgets/LessDemo',
+  component: LessDemo,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   // argTypes: {
   //   backgroundColor: { control: 'color' },
@@ -13,10 +13,10 @@ export default {
 }
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template = (args) => <Loading {...args} />
+const Template = (args) => <LessDemo {...args} />
 
-export const LoadingComp = Template.bind({})
+export const Comp = Template.bind({})
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-LoadingComp.args = {
+Comp.args = {
   platformName: 'Loading',
 }

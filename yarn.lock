@@ -2983,7 +2983,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/react@npm:1.6.22, @mdx-js/react@npm:^1.6.22":
+"@mdx-js/react@npm:^1.6.22":
   version: 1.6.22
   resolution: "@mdx-js/react@npm:1.6.22"
   peerDependencies:
@@ -3454,13 +3454,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sreworks-starter/components@link:./packages/components::locator=%40sreworks-starter%2Fmonorepo%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@sreworks-starter/components@link:./packages/components::locator=%40sreworks-starter%2Fmonorepo%40workspace%3A."
-  languageName: node
-  linkType: soft
-
-"@sreworks-starter/components@workspace:packages/components":
+"@sreworks-starter/components@^0.0.0-alpha.10, @sreworks-starter/components@workspace:packages/components":
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/components@workspace:packages/components"
   dependencies:
@@ -3468,17 +3462,7 @@ __metadata:
     "@babel/core": 7.18.13
     "@babel/preset-env": 7.18.10
     "@babel/preset-react": 7.18.6
-    "@mdx-js/react": 1.6.22
     "@sreworks-starter/shared-utils": ^0.0.0-alpha.10
-    "@storybook/addon-actions": 6.5.10
-    "@storybook/addon-docs": 6.5.10
-    "@storybook/addon-essentials": 6.5.10
-    "@storybook/addon-interactions": 6.5.10
-    "@storybook/addon-links": 6.5.10
-    "@storybook/builder-webpack5": 6.5.10
-    "@storybook/manager-webpack5": 6.5.10
-    "@storybook/react": 6.5.10
-    "@storybook/testing-library": 0.0.13
     "@svgr/webpack": 6.3.1
     autoprefixer: 10.4.8
     babel-loader: 8.2.5
@@ -3492,10 +3476,8 @@ __metadata:
     postcss-loader: 7.0.1
     prop-types: 15.8.1
     react: ~17.0.2
-    react-dom: ~17.0.2
     sass: 1.54.5
     sass-loader: 13.0.2
-    storybook-preset-less: 1.1.3
     style-loader: 3.3.1
     stylus: 0.59.0
     stylus-loader: 7.0.0
@@ -3513,13 +3495,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sreworks-starter/framework@link:./packages/framework::locator=%40sreworks-starter%2Fmonorepo%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@sreworks-starter/framework@link:./packages/framework::locator=%40sreworks-starter%2Fmonorepo%40workspace%3A."
-  languageName: node
-  linkType: soft
-
-"@sreworks-starter/framework@workspace:packages/framework":
+"@sreworks-starter/framework@^0.0.0-alpha.10, @sreworks-starter/framework@workspace:packages/framework":
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/framework@workspace:packages/framework"
   dependencies:
@@ -3540,14 +3516,30 @@ __metadata:
     "@babel/preset-react": 7.18.6
     "@commitlint/cli": 17.0.3
     "@commitlint/config-conventional": 17.0.3
+    "@mdx-js/react": ^1.6.22
+    "@storybook/addon-actions": ^6.5.10
+    "@storybook/addon-docs": ^6.5.10
+    "@storybook/addon-essentials": ^6.5.10
+    "@storybook/addon-interactions": ^6.5.10
+    "@storybook/addon-links": ^6.5.10
+    "@storybook/builder-webpack5": ^6.5.10
+    "@storybook/manager-webpack5": ^6.5.10
+    "@storybook/react": ^6.5.10
+    "@storybook/testing-library": ^0.0.13
+    "@svgr/webpack": 6.3.1
+    babel-loader: ^8.2.5
     eslint: 8.22.0
     eslint-config-prettier: 8.5.0
     eslint-plugin-prettier: 4.2.1
     husky: 8.0.1
     lerna: 5.4.3
+    less: 4.1.3
+    less-loader: 11.0.0
     lint-staged: 13.0.3
     npm-run-all: 4.1.5
     prettier: 2.7.1
+    react: 17.0.2
+    react-dom: 17.0.2
     rimraf: 3.0.2
     sort-package-json: 1.57.0
   languageName: unknown
@@ -3598,13 +3590,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sreworks-starter/widgets@link:./packages/widgets::locator=%40sreworks-starter%2Fmonorepo%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@sreworks-starter/widgets@link:./packages/widgets::locator=%40sreworks-starter%2Fmonorepo%40workspace%3A."
-  languageName: node
-  linkType: soft
-
-"@sreworks-starter/widgets@workspace:packages/widgets":
+"@sreworks-starter/widgets@^0.0.0-alpha.10, @sreworks-starter/widgets@workspace:packages/widgets":
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/widgets@workspace:packages/widgets"
   dependencies:
@@ -3634,7 +3620,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@storybook/addon-actions@npm:6.5.10":
+"@storybook/addon-actions@npm:6.5.10, @storybook/addon-actions@npm:^6.5.10":
   version: 6.5.10
   resolution: "@storybook/addon-actions@npm:6.5.10"
   dependencies:
@@ -3726,7 +3712,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-docs@npm:6.5.10":
+"@storybook/addon-docs@npm:6.5.10, @storybook/addon-docs@npm:^6.5.10":
   version: 6.5.10
   resolution: "@storybook/addon-docs@npm:6.5.10"
   dependencies:
@@ -3773,7 +3759,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-essentials@npm:6.5.10":
+"@storybook/addon-essentials@npm:^6.5.10":
   version: 6.5.10
   resolution: "@storybook/addon-essentials@npm:6.5.10"
   dependencies:
@@ -3833,7 +3819,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-interactions@npm:6.5.10":
+"@storybook/addon-interactions@npm:^6.5.10":
   version: 6.5.10
   resolution: "@storybook/addon-interactions@npm:6.5.10"
   dependencies:
@@ -3864,7 +3850,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:6.5.10":
+"@storybook/addon-links@npm:^6.5.10":
   version: 6.5.10
   resolution: "@storybook/addon-links@npm:6.5.10"
   dependencies:
@@ -4103,7 +4089,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/builder-webpack5@npm:6.5.10":
+"@storybook/builder-webpack5@npm:^6.5.10":
   version: 6.5.10
   resolution: "@storybook/builder-webpack5@npm:6.5.10"
   dependencies:
@@ -4559,7 +4545,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/manager-webpack5@npm:6.5.10":
+"@storybook/manager-webpack5@npm:^6.5.10":
   version: 6.5.10
   resolution: "@storybook/manager-webpack5@npm:6.5.10"
   dependencies:
@@ -4691,7 +4677,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react@npm:6.5.10":
+"@storybook/react@npm:^6.5.10":
   version: 6.5.10
   resolution: "@storybook/react@npm:6.5.10"
   dependencies:
@@ -4851,7 +4837,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/testing-library@npm:0.0.13":
+"@storybook/testing-library@npm:^0.0.13":
   version: 0.0.13
   resolution: "@storybook/testing-library@npm:0.0.13"
   dependencies:
@@ -6659,7 +6645,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-loader@npm:8.2.5, babel-loader@npm:^8.0.0":
+"babel-loader@npm:8.2.5, babel-loader@npm:^8.0.0, babel-loader@npm:^8.2.5":
   version: 8.2.5
   resolution: "babel-loader@npm:8.2.5"
   dependencies:
@@ -16036,7 +16022,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:*, postcss-loader@npm:7.0.1":
+"postcss-loader@npm:7.0.1":
   version: 7.0.1
   resolution: "postcss-loader@npm:7.0.1"
   dependencies:
@@ -16399,7 +16385,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:*, postcss@npm:8.4.16, postcss@npm:^8.2.15, postcss@npm:^8.4.13, postcss@npm:^8.4.16, postcss@npm:^8.4.7":
+"postcss@npm:8.4.16, postcss@npm:^8.2.15, postcss@npm:^8.4.13, postcss@npm:^8.4.16, postcss@npm:^8.4.7":
   version: 8.4.16
   resolution: "postcss@npm:8.4.16"
   dependencies:
@@ -16851,7 +16837,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:17.0.2, react-dom@npm:~17.0.2":
+"react-dom@npm:17.0.2":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2"
   dependencies:
@@ -18448,28 +18434,6 @@ __metadata:
   version: 2.14.2
   resolution: "store2@npm:2.14.2"
   checksum: 6f270fc5bab99b63f45fcc7bd8b99c2714b4adf880f557ed7ffb5ed3987131251165bccde425a00928aaf044870aee79ddeef548576d093c68703ed2edec45d7
-  languageName: node
-  linkType: hard
-
-"storybook-preset-less@npm:1.1.3":
-  version: 1.1.3
-  resolution: "storybook-preset-less@npm:1.1.3"
-  dependencies:
-    postcss: "*"
-    postcss-loader: "*"
-    webpack: "*"
-  peerDependencies:
-    css-loader: "*"
-    less-loader: "*"
-    style-loader: "*"
-  dependenciesMeta:
-    postcss:
-      optional: true
-    postcss-loader:
-      optional: true
-    webpack:
-      optional: true
-  checksum: 3f0e7a85fa81944ba5e78dabf41325f9157eb4dd611d2f5523358ae21f676bcf585adab73fd1b8318df8011c5aef8fb38e66fbc1fc06d1e4da0a6bace39a4c40
   languageName: node
   linkType: hard
 
@@ -20367,43 +20331,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:*, webpack@npm:5.74.0, webpack@npm:>=4.43.0 <6.0.0, webpack@npm:^5.9.0":
-  version: 5.74.0
-  resolution: "webpack@npm:5.74.0"
-  dependencies:
-    "@types/eslint-scope": ^3.7.3
-    "@types/estree": ^0.0.51
-    "@webassemblyjs/ast": 1.11.1
-    "@webassemblyjs/wasm-edit": 1.11.1
-    "@webassemblyjs/wasm-parser": 1.11.1
-    acorn: ^8.7.1
-    acorn-import-assertions: ^1.7.6
-    browserslist: ^4.14.5
-    chrome-trace-event: ^1.0.2
-    enhanced-resolve: ^5.10.0
-    es-module-lexer: ^0.9.0
-    eslint-scope: 5.1.1
-    events: ^3.2.0
-    glob-to-regexp: ^0.4.1
-    graceful-fs: ^4.2.9
-    json-parse-even-better-errors: ^2.3.1
-    loader-runner: ^4.2.0
-    mime-types: ^2.1.27
-    neo-async: ^2.6.2
-    schema-utils: ^3.1.0
-    tapable: ^2.1.1
-    terser-webpack-plugin: ^5.1.3
-    watchpack: ^2.4.0
-    webpack-sources: ^3.2.3
-  peerDependenciesMeta:
-    webpack-cli:
-      optional: true
-  bin:
-    webpack: bin/webpack.js
-  checksum: 320c41369a75051b19e18c63f408b3dcc481852e992f83d311771c5ec0f05f2946385e8ebef62030cf3587f0a3d2f12779ffdb191569a966847289ba7313f946
-  languageName: node
-  linkType: hard
-
 "webpack@npm:4":
   version: 4.46.0
   resolution: "webpack@npm:4.46.0"
@@ -20439,6 +20366,43 @@ __metadata:
   bin:
     webpack: bin/webpack.js
   checksum: 013fa24c00d4261e16ebca60353fa6f848e417b5a44bdf28c16ebebd67fa61e960420bb314c8df05cfe2dad9b90efabcf38fd6875f2361922769a0384085ef1e
+  languageName: node
+  linkType: hard
+
+"webpack@npm:5.74.0, webpack@npm:>=4.43.0 <6.0.0, webpack@npm:^5.9.0":
+  version: 5.74.0
+  resolution: "webpack@npm:5.74.0"
+  dependencies:
+    "@types/eslint-scope": ^3.7.3
+    "@types/estree": ^0.0.51
+    "@webassemblyjs/ast": 1.11.1
+    "@webassemblyjs/wasm-edit": 1.11.1
+    "@webassemblyjs/wasm-parser": 1.11.1
+    acorn: ^8.7.1
+    acorn-import-assertions: ^1.7.6
+    browserslist: ^4.14.5
+    chrome-trace-event: ^1.0.2
+    enhanced-resolve: ^5.10.0
+    es-module-lexer: ^0.9.0
+    eslint-scope: 5.1.1
+    events: ^3.2.0
+    glob-to-regexp: ^0.4.1
+    graceful-fs: ^4.2.9
+    json-parse-even-better-errors: ^2.3.1
+    loader-runner: ^4.2.0
+    mime-types: ^2.1.27
+    neo-async: ^2.6.2
+    schema-utils: ^3.1.0
+    tapable: ^2.1.1
+    terser-webpack-plugin: ^5.1.3
+    watchpack: ^2.4.0
+    webpack-sources: ^3.2.3
+  peerDependenciesMeta:
+    webpack-cli:
+      optional: true
+  bin:
+    webpack: bin/webpack.js
+  checksum: 320c41369a75051b19e18c63f408b3dcc481852e992f83d311771c5ec0f05f2946385e8ebef62030cf3587f0a3d2f12779ffdb191569a966847289ba7313f946
   languageName: node
   linkType: hard
 
