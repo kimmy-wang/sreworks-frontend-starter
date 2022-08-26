@@ -6,6 +6,7 @@
   "ignoreDeps": [
     "yarn",
     "react",
+    "react-dom",
     "chalk"
   ]
 }
