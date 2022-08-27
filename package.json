@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "build:all": "yarn workspaces foreach run build",
-    "test:all": "yarn workspaces foreach run test",
+    "test": "jest",
     "postinstall": "husky install",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
