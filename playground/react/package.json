@@ -1,6 +1,6 @@
 {
   "name": "react",
-  "version": "0.0.0-alpha.0",
+  "version": "0.0.0-alpha.11",
   "private": true,
   "scripts": {
     "build": "vite build",
@@ -13,7 +13,7 @@
     ]
   },
   "dependencies": {
-    "@sreworks-starter/components": "^0.0.0-alpha.10",
+    "@sreworks-starter/components": "^0.0.0-alpha.11",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },

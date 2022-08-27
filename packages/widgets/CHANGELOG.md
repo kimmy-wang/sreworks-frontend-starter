@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.0.0-alpha.11](https://github.com/see/sreworks-frontend-starter/compare/v0.0.0-alpha.10...v0.0.0-alpha.11) (2022-08-27)
+
+
+### Bug Fixes
+
+* less-loader ([bc6dd32](https://github.com/see/sreworks-frontend-starter/commit/bc6dd3243a7389eaf320a6f3cc1480a22d0bf5e9))
+
+
+
+
+
 # [0.0.0-alpha.10](https://github.com/see/sreworks-frontend-starter/compare/v0.0.0-alpha.9...v0.0.0-alpha.10) (2022-08-25)
 
 **Note:** Version bump only for package @sreworks-starter/widgets

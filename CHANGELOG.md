@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.0.0-alpha.11](https://github.com/see/sreworks-frontend-starter/compare/v0.0.0-alpha.10...v0.0.0-alpha.11) (2022-08-27)
+
+
+### Bug Fixes
+
+* ABMLoading ([32b5c35](https://github.com/see/sreworks-frontend-starter/commit/32b5c350bced4764901ce1ddf49e02aa94e8dfa3))
+* less-loader ([bc6dd32](https://github.com/see/sreworks-frontend-starter/commit/bc6dd3243a7389eaf320a6f3cc1480a22d0bf5e9))
+* Loading ([94ab56d](https://github.com/see/sreworks-frontend-starter/commit/94ab56dd21560a247e4af17ee4cbc60057768e42))
+* playground ([7dd7262](https://github.com/see/sreworks-frontend-starter/commit/7dd7262aa5ea81cb7fecc534aaa9c03cfe4123d0))
+* renovate.json ([4b3a1c9](https://github.com/see/sreworks-frontend-starter/commit/4b3a1c9ac5ec1850af8affa7922f9fc8e7c42241))
+
+
+### Features
+
+* **$components:** Add ABMLoading ([e5d767e](https://github.com/see/sreworks-frontend-starter/commit/e5d767e6457a94269c93584a44483f46315ff65b))
+* Add playground ([2816c22](https://github.com/see/sreworks-frontend-starter/commit/2816c221aacd8681f8cb723279fe799ca9974204))
+
+
+### Reverts
+
+* Revert "chore(deps): update dependency @mdx-js/react to v2" ([3190839](https://github.com/see/sreworks-frontend-starter/commit/31908395edeee3a2521edb5a08c5083d398db56c))
+
+
+
+
+
 # [0.0.0-alpha.10](https://github.com/see/sreworks-frontend-starter/compare/v0.0.0-alpha.9...v0.0.0-alpha.10) (2022-08-25)
 
 **Note:** Version bump only for package @sreworks-starter/monorepo
