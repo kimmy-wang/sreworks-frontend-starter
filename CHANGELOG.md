@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.0.0-alpha.13](https://github.com/see/sreworks-frontend-starter/compare/v0.0.0-alpha.12...v0.0.0-alpha.13) (2022-08-27)
+
+
+### Bug Fixes
+
+* AlertRender -> Alert ([724de5b](https://github.com/see/sreworks-frontend-starter/commit/724de5bef59e87321189f20070297a9b94eb128e))
+
+
+
+
+
 # [0.0.0-alpha.12](https://github.com/see/sreworks-frontend-starter/compare/v0.0.0-alpha.11...v0.0.0-alpha.12) (2022-08-27)
 
 **Note:** Version bump only for package @sreworks-starter/monorepo
