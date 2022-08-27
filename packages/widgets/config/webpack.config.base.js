@@ -38,7 +38,7 @@ module.exports = {
             loader: 'less-loader',
             options: {
               lessOptions: {
-                strictMath: true,
+                // strictMath: true,
                 javascriptEnabled: true,
               },
             },
