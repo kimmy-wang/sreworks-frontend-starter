@@ -1,1 +1,1 @@
-export { AlertRender } from './Alert'
+export { Alert } from './Alert'
