@@ -6,9 +6,10 @@ module.exports = {
   entry: getUmdEntries(),
   mode: 'production',
   output: {
-    filename: '[name].js',
+    filename: '[name].umd.js',
     path: path.resolve(process.cwd(), 'dist'),
     library: {
+      name: '[name]',
       type: 'umd',
     },
   },

@@ -1,14 +1,15 @@
 const path = require('path')
 const TerserPlugin = require('terser-webpack-plugin')
-const { getEntries } = require('./utils')
+const { getUmdEntries } = require('./utils')
 
 module.exports = {
-  entry: getEntries(),
+  entry: getUmdEntries(),
   mode: 'production',
   output: {
-    filename: '[name].js',
+    filename: '[name].umd.js',
     path: path.resolve(process.cwd(), 'dist'),
     library: {
+      name: '[name]',
       type: 'umd',
     },
   },
