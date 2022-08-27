@@ -1,11 +1,11 @@
 import React from 'react'
 
-import LessDemo from '.'
+import { AlertRender } from '.'
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'Widgets/LessDemo',
-  component: LessDemo,
+  title: 'Widgets/AlertRender',
+  component: AlertRender,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   // argTypes: {
   //   backgroundColor: { control: 'color' },
@@ -13,10 +13,12 @@ export default {
 }
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template = (args) => <LessDemo {...args} />
+const Template = (args) => <AlertRender {...args} />
 
 export const Comp = Template.bind({})
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Comp.args = {
-  platformName: 'Loading',
+  widgetConfig: {
+    message: 'Alert',
+  },
 }

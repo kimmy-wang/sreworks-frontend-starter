@@ -1,9 +1,9 @@
 const path = require('path')
 const TerserPlugin = require('terser-webpack-plugin')
-const { getEntries } = require('./utils')
+const { getUmdEntries } = require('./utils')
 
 module.exports = {
-  entry: getEntries(),
+  entry: getUmdEntries(),
   mode: 'production',
   output: {
     filename: '[name].js',
@@ -76,21 +76,21 @@ module.exports = {
         ],
       },
       {
-        test: /\.(jpg|png)$/i,
+        test: /\.(jpg|png|svg)$/i,
         use: [
           {
             loader: 'url-loader',
           },
         ],
       },
-      {
-        test: /\.svg$/,
-        use: [
-          {
-            loader: '@svgr/webpack',
-          },
-        ],
-      },
+      // {
+      //   test: /\.svg$/,
+      //   use: [
+      //     {
+      //       loader: '@svgr/webpack',
+      //     },
+      //   ],
+      // },
     ],
   },
   optimization: {

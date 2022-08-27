@@ -5,7 +5,7 @@ module.exports = {
   ...base,
   transform: {
     '^.+\\.jsx?$': 'babel-jest',
-    '^.+\\.(less|css)$': 'jest-less-loader',
+    '.+\\.(css|styl|less|sass|scss)$': 'jest-css-modules-transform',
   },
   testEnvironment: 'jsdom',
   displayName: pkg.name,
