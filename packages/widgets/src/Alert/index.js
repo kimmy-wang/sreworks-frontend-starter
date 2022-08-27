@@ -3,16 +3,16 @@
  * 警告提示
  */
 import React from 'react'
-import { Alert } from 'antd'
+import { Alert as AntdAlert } from 'antd'
 import PropTypes from 'prop-types'
 
 import './index.less'
 
-export function AlertRender(props) {
+export function Alert(props) {
   let { widgetConfig = {} } = props
   let { message, alertType, showIcon, closable, icon, description } = widgetConfig
   return (
-    <Alert
+    <AntdAlert
       message={message}
       type={alertType}
       showIcon={showIcon}
@@ -23,6 +23,6 @@ export function AlertRender(props) {
   )
 }
 
-AlertRender.propTypes = {
+Alert.propTypes = {
   widgetConfig: PropTypes.object,
 }

@@ -1,2 +1,2 @@
-export { AlertRender } from '.'
-export { default as AlertRenderMeta } from './meta'
+export { Alert } from '.'
+export { default as AlertMeta } from './meta'
