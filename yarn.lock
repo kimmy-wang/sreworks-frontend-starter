@@ -3779,6 +3779,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rollup/pluginutils@npm:^4.1.2":
+  version: 4.2.1
+  resolution: "@rollup/pluginutils@npm:4.2.1"
+  dependencies:
+    estree-walker: ^2.0.1
+    picomatch: ^2.2.2
+  checksum: 6bc41f22b1a0f1efec3043899e4d3b6b1497b3dea4d94292d8f83b4cf07a1073ecbaedd562a22d11913ff7659f459677b01b09e9598a98936e746780ecc93a12
+  languageName: node
+  linkType: hard
+
 "@sinclair/typebox@npm:^0.24.1":
   version: 0.24.28
   resolution: "@sinclair/typebox@npm:0.24.28"
@@ -3812,13 +3822,13 @@ __metadata:
     "@babel/core": 7.18.13
     "@babel/preset-env": 7.18.10
     "@babel/preset-react": 7.18.6
-    "@sreworks-starter/components": ^0.0.0-alpha.13
-    "@sreworks-starter/framework": ^0.0.0-alpha.13
-    "@sreworks-starter/widgets": ^0.0.0-alpha.13
+    "@sreworks-starter/components": ^0.0.0-alpha.14
+    "@sreworks-starter/framework": ^0.0.0-alpha.14
+    "@sreworks-starter/widgets": ^0.0.0-alpha.14
   languageName: unknown
   linkType: soft
 
-"@sreworks-starter/components@^0.0.0-alpha.13, @sreworks-starter/components@workspace:packages/components":
+"@sreworks-starter/components@^0.0.0-alpha.14, @sreworks-starter/components@workspace:packages/components":
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/components@workspace:packages/components"
   dependencies:
@@ -3826,7 +3836,7 @@ __metadata:
     "@babel/core": 7.18.13
     "@babel/preset-env": 7.18.10
     "@babel/preset-react": 7.18.6
-    "@sreworks-starter/shared-utils": ^0.0.0-alpha.13
+    "@sreworks-starter/shared-utils": ^0.0.0-alpha.14
     "@svgr/webpack": 6.3.1
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 12.1.5
@@ -3875,14 +3885,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sreworks-starter/framework@^0.0.0-alpha.13, @sreworks-starter/framework@workspace:packages/framework":
+"@sreworks-starter/framework@^0.0.0-alpha.14, @sreworks-starter/framework@workspace:packages/framework":
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/framework@workspace:packages/framework"
   dependencies:
     "@babel/cli": 7.18.10
     "@babel/core": 7.18.13
     "@babel/preset-env": 7.18.10
-    "@sreworks-starter/shared-utils": ^0.0.0-alpha.13
+    "@sreworks-starter/shared-utils": ^0.0.0-alpha.14
     babel-jest: 29.0.1
     jest: 29.0.1
   languageName: unknown
@@ -3928,7 +3938,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sreworks-starter/shared-utils@^0.0.0-alpha.13, @sreworks-starter/shared-utils@workspace:packages/shared-utils":
+"@sreworks-starter/shared-utils@^0.0.0-alpha.14, @sreworks-starter/shared-utils@workspace:packages/shared-utils":
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/shared-utils@workspace:packages/shared-utils"
   dependencies:
@@ -3979,7 +3989,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sreworks-starter/widgets@^0.0.0-alpha.13, @sreworks-starter/widgets@workspace:packages/widgets":
+"@sreworks-starter/widgets@^0.0.0-alpha.14, @sreworks-starter/widgets@workspace:packages/widgets":
   version: 0.0.0-use.local
   resolution: "@sreworks-starter/widgets@workspace:packages/widgets"
   dependencies:
@@ -3987,7 +3997,7 @@ __metadata:
     "@babel/core": 7.18.13
     "@babel/preset-env": 7.18.10
     "@babel/preset-react": 7.18.6
-    "@sreworks-starter/shared-utils": ^0.0.0-alpha.13
+    "@sreworks-starter/shared-utils": ^0.0.0-alpha.14
     "@svgr/webpack": 6.3.1
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 12.1.5
@@ -8218,6 +8228,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"capital-case@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "capital-case@npm:1.0.4"
+  dependencies:
+    no-case: ^3.0.4
+    tslib: ^2.0.3
+    upper-case-first: ^2.0.2
+  checksum: 41fa8fa87f6d24d0835a2b4a9341a3eaecb64ac29cd7c5391f35d6175a0fa98ab044e7f2602e1ec3afc886231462ed71b5b80c590b8b41af903ec2c15e5c5931
+  languageName: node
+  linkType: hard
+
 "capture-exit@npm:^2.0.0":
   version: 2.0.0
   resolution: "capture-exit@npm:2.0.0"
@@ -8279,6 +8300,26 @@ __metadata:
     ansi-styles: ^4.1.0
     supports-color: ^7.1.0
   checksum: fe75c9d5c76a7a98d45495b91b2172fa3b7a09e0cc9370e5c8feb1c567b85c4288e2b3fded7cfdd7359ac28d6b3844feb8b82b8686842e93d23c827c417e83fc
+  languageName: node
+  linkType: hard
+
+"change-case@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "change-case@npm:4.1.2"
+  dependencies:
+    camel-case: ^4.1.2
+    capital-case: ^1.0.4
+    constant-case: ^3.0.4
+    dot-case: ^3.0.4
+    header-case: ^2.0.4
+    no-case: ^3.0.4
+    param-case: ^3.0.4
+    pascal-case: ^3.1.2
+    path-case: ^3.0.4
+    sentence-case: ^3.0.4
+    snake-case: ^3.0.4
+    tslib: ^2.0.3
+  checksum: e4bc4a093a1f7cce8b33896665cf9e456e3bc3cc0def2ad7691b1994cfca99b3188d0a513b16855b01a6bd20692fcde12a7d4d87a5615c4c515bbbf0e651f116
   languageName: node
   linkType: hard
 
@@ -8918,6 +8959,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"consola@npm:2.15.3":
+  version: 2.15.3
+  resolution: "consola@npm:2.15.3"
+  checksum: 8ef7a09b703ec67ac5c389a372a33b6dc97eda6c9876443a60d76a3076eea0259e7f67a4e54fd5a52f97df73690822d090cf8b7e102b5761348afef7c6d03e28
+  languageName: node
+  linkType: hard
+
 "console-browserify@npm:^1.1.0":
   version: 1.2.0
   resolution: "console-browserify@npm:1.2.0"
@@ -8929,6 +8977,24 @@ __metadata:
   version: 1.1.0
   resolution: "console-control-strings@npm:1.1.0"
   checksum: 8755d76787f94e6cf79ce4666f0c5519906d7f5b02d4b884cf41e11dcd759ed69c57da0670afd9236d229a46e0f9cf519db0cd829c6dca820bb5a5c3def584ed
+  languageName: node
+  linkType: hard
+
+"console@npm:^0.7.2":
+  version: 0.7.2
+  resolution: "console@npm:0.7.2"
+  checksum: 10bf58a934cdfcedc7709d2897203aae03dea7a3a2f4bf69f7c0a0c075045e1eec2526c483149cdcd864ec964ba9e73e7bf8ef62320b84629e79db7a06011c94
+  languageName: node
+  linkType: hard
+
+"constant-case@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "constant-case@npm:3.0.4"
+  dependencies:
+    no-case: ^3.0.4
+    tslib: ^2.0.3
+    upper-case: ^2.0.2
+  checksum: 6c3346d51afc28d9fae922e966c68eb77a19d94858dba230dd92d7b918b37d36db50f0311e9ecf6847e43e934b1c01406a0936973376ab17ec2c471fbcfb2cf3
   languageName: node
   linkType: hard
 
@@ -10397,7 +10463,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-module-lexer@npm:^0.9.0":
+"es-module-lexer@npm:^0.9.0, es-module-lexer@npm:^0.9.3":
   version: 0.9.3
   resolution: "es-module-lexer@npm:0.9.3"
   checksum: 84bbab23c396281db2c906c766af58b1ae2a1a2599844a504df10b9e8dc77ec800b3211fdaa133ff700f5703d791198807bba25d9667392d27a5e9feda344da8
@@ -10941,6 +11007,13 @@ __metadata:
     "@babel/types": ^7.2.0
     c8: ^7.6.0
   checksum: a4584d0c60b80ce41abe91b11052f5d48635e811c67839942c4ebd51aa33d9f9b156ad615f71ceae2a8260b5e3054f36d73db6d0d2a3b9951483f4b6187495c8
+  languageName: node
+  linkType: hard
+
+"estree-walker@npm:^2.0.1":
+  version: 2.0.2
+  resolution: "estree-walker@npm:2.0.2"
+  checksum: 6151e6f9828abe2259e57f5fd3761335bb0d2ebd76dc1a01048ccee22fabcfef3c0859300f6d83ff0d1927849368775ec5a6d265dde2f6de5a1be1721cd94efc
   languageName: node
   linkType: hard
 
@@ -12690,6 +12763,16 @@ __metadata:
   bin:
     he: bin/he
   checksum: 3d4d6babccccd79c5c5a3f929a68af33360d6445587d628087f39a965079d84f18ce9c3d3f917ee1e3978916fc833bb8b29377c3b403f919426f91bc6965e7a7
+  languageName: node
+  linkType: hard
+
+"header-case@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "header-case@npm:2.0.4"
+  dependencies:
+    capital-case: ^1.0.4
+    tslib: ^2.0.3
+  checksum: 571c83eeb25e8130d172218712f807c0b96d62b020981400bccc1503a7cf14b09b8b10498a962d2739eccf231d950e3848ba7d420b58a6acd2f9283439546cd9
   languageName: node
   linkType: hard
 
@@ -15354,6 +15437,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"magic-string@npm:^0.25.7":
+  version: 0.25.9
+  resolution: "magic-string@npm:0.25.9"
+  dependencies:
+    sourcemap-codec: ^1.4.8
+  checksum: 9a0e55a15c7303fc360f9572a71cffba1f61451bc92c5602b1206c9d17f492403bf96f946dfce7483e66822d6b74607262e24392e87b0ac27b786e69a40e9b1a
+  languageName: node
+  linkType: hard
+
 "magic-string@npm:^0.26.2":
   version: 0.26.2
   resolution: "magic-string@npm:0.26.2"
@@ -17374,6 +17466,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"path-case@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "path-case@npm:3.0.4"
+  dependencies:
+    dot-case: ^3.0.4
+    tslib: ^2.0.3
+  checksum: 61de0526222629f65038a66f63330dd22d5b54014ded6636283e1d15364da38b3cf29e4433aa3f9d8b0dba407ae2b059c23b0104a34ee789944b1bc1c5c7e06d
+  languageName: node
+  linkType: hard
+
 "path-dirname@npm:^1.0.0":
   version: 1.0.2
   resolution: "path-dirname@npm:1.0.2"
@@ -17489,6 +17591,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pathe@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "pathe@npm:0.2.0"
+  checksum: 9a8149ce152088f30d15b0b03a7c128ba21f16b4dc1f3f90fe38eee9f6d0f1d6da8e4e47bd2a4f9e14aaac7c30ed01cfc86216479011de2bdc598b65e6f19f41
+  languageName: node
+  linkType: hard
+
 "pbkdf2@npm:^3.0.3":
   version: 3.1.2
   resolution: "pbkdf2@npm:3.1.2"
@@ -17516,7 +17625,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^2.0.4, picomatch@npm:^2.2.1, picomatch@npm:^2.2.3, picomatch@npm:^2.3.0, picomatch@npm:^2.3.1":
+"picomatch@npm:^2.0.4, picomatch@npm:^2.2.1, picomatch@npm:^2.2.2, picomatch@npm:^2.2.3, picomatch@npm:^2.3.0, picomatch@npm:^2.3.1":
   version: 2.3.1
   resolution: "picomatch@npm:2.3.1"
   checksum: 050c865ce81119c4822c45d3c84f1ced46f93a0126febae20737bd05ca20589c564d6e9226977df859ed5e03dc73f02584a2b0faad36e896936238238b0446cf
@@ -19303,11 +19412,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react@workspace:playground/react"
   dependencies:
-    "@sreworks-starter/components": ^0.0.0-alpha.13
+    "@sreworks-starter/components": ^0.0.0-alpha.14
     "@vitejs/plugin-react": 2.0.1
+    consola: 2.15.3
     react: 17.0.2
     react-dom: 17.0.2
     vite: 3.0.9
+    vite-plugin-style-import: 2.0.0
   languageName: unknown
   linkType: soft
 
@@ -20306,6 +20417,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sentence-case@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "sentence-case@npm:3.0.4"
+  dependencies:
+    no-case: ^3.0.4
+    tslib: ^2.0.3
+    upper-case-first: ^2.0.2
+  checksum: 3cfe6c0143e649132365695706702d7f729f484fa7b25f43435876efe7af2478243eefb052bacbcce10babf9319fd6b5b6bc59b94c80a1c819bcbb40651465d5
+  languageName: node
+  linkType: hard
+
 "serialize-javascript@npm:^4.0.0":
   version: 4.0.0
   resolution: "serialize-javascript@npm:4.0.0"
@@ -20533,6 +20655,16 @@ __metadata:
   version: 4.2.0
   resolution: "smart-buffer@npm:4.2.0"
   checksum: b5167a7142c1da704c0e3af85c402002b597081dd9575031a90b4f229ca5678e9a36e8a374f1814c8156a725d17008ae3bde63b92f9cfd132526379e580bec8b
+  languageName: node
+  linkType: hard
+
+"snake-case@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "snake-case@npm:3.0.4"
+  dependencies:
+    dot-case: ^3.0.4
+    tslib: ^2.0.3
+  checksum: 0a7a79900bbb36f8aaa922cf111702a3647ac6165736d5dc96d3ef367efc50465cac70c53cd172c382b022dac72ec91710608e5393de71f76d7142e6fd80e8a3
   languageName: node
   linkType: hard
 
@@ -22334,6 +22466,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"upper-case-first@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "upper-case-first@npm:2.0.2"
+  dependencies:
+    tslib: ^2.0.3
+  checksum: 4487db4701effe3b54ced4b3e4aa4d9ab06c548f97244d04aafb642eedf96a76d5a03cf5f38f10f415531d5792d1ac6e1b50f2a76984dc6964ad530f12876409
+  languageName: node
+  linkType: hard
+
+"upper-case@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "upper-case@npm:2.0.2"
+  dependencies:
+    tslib: ^2.0.3
+  checksum: 508723a2b03ab90cf1d6b7e0397513980fab821cbe79c87341d0e96cedefadf0d85f9d71eac24ab23f526a041d585a575cfca120a9f920e44eb4f8a7cf89121c
+  languageName: node
+  linkType: hard
+
 "uri-js@npm:^4.2.2":
   version: 4.4.1
   resolution: "uri-js@npm:4.4.1"
@@ -22633,6 +22783,23 @@ __metadata:
     remove-trailing-separator: ^1.0.1
     replace-ext: ^1.0.0
   checksum: 1f663973f1362f2d074b554f79ff7673187667082373b3d3e628beb1fc2a7ff33024f10b492fbd8db421a09ea3b7b22c3d3de4a0f0e73ead7b4685af570b906f
+  languageName: node
+  linkType: hard
+
+"vite-plugin-style-import@npm:2.0.0":
+  version: 2.0.0
+  resolution: "vite-plugin-style-import@npm:2.0.0"
+  dependencies:
+    "@rollup/pluginutils": ^4.1.2
+    change-case: ^4.1.2
+    console: ^0.7.2
+    es-module-lexer: ^0.9.3
+    fs-extra: ^10.0.0
+    magic-string: ^0.25.7
+    pathe: ^0.2.0
+  peerDependencies:
+    vite: ">=2.0.0"
+  checksum: 48a9290775e493b119fd198947cccc7ff82fb55a23d9a7fc74b2066c841ec56ce1968f17d87fcead11df9e1935b73f92d2be4106e7ad4b0143ec52cdace517e8
   languageName: node
   linkType: hard
 
