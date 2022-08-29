@@ -4,7 +4,7 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
-import { Loading } from '.'
+import { Loading } from '..'
 
 test('loads and displays greeting', async () => {
   render(<Loading platformName="Test" />)

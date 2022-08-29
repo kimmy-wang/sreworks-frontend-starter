@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Loading } from '.'
+import './style'
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
