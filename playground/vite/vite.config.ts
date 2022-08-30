@@ -1,12 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { createStyleImportPlugin } from 'vite-plugin-style-import'
+import styleImport from 'vite-plugin-style-import'
 
 export default defineConfig({
   mode: 'development',
   plugins: [
     react(),
-    createStyleImportPlugin({
+    styleImport({
       libs: [
         // If you don’t have the resolve you need, you can write it directly in the lib, or you can provide us with PR
         {
