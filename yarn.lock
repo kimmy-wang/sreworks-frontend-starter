@@ -4684,7 +4684,7 @@ __metadata:
     mini-css-extract-plugin: 2.7.2
     npm-run-all: 4.1.5
     postcss: 8.4.19
-    postcss-loader: 7.0.1
+    postcss-loader: 7.3.4
     prop-types: 15.8.1
     react: ~17.0.2
     react-dom: ~17.0.2
@@ -10363,6 +10363,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cosmiconfig@npm:^8.3.5":
+  version: 8.3.6
+  resolution: "cosmiconfig@npm:8.3.6"
+  dependencies:
+    import-fresh: ^3.3.0
+    js-yaml: ^4.1.0
+    parse-json: ^5.2.0
+    path-type: ^4.0.0
+  peerDependencies:
+    typescript: ">=4.9.5"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: dc339ebea427898c9e03bf01b56ba7afbac07fc7d2a2d5a15d6e9c14de98275a9565da949375aee1809591c152c0a3877bb86dbeaf74d5bd5aaa79955ad9e7a0
+  languageName: node
+  linkType: hard
+
 "cp-file@npm:^7.0.0":
   version: 7.0.0
   resolution: "cp-file@npm:7.0.0"
@@ -14267,7 +14284,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-fresh@npm:^3.0.0, import-fresh@npm:^3.1.0, import-fresh@npm:^3.2.1":
+"import-fresh@npm:^3.0.0, import-fresh@npm:^3.1.0, import-fresh@npm:^3.2.1, import-fresh@npm:^3.3.0":
   version: 3.3.0
   resolution: "import-fresh@npm:3.3.0"
   dependencies:
@@ -15841,6 +15858,15 @@ __metadata:
   bin:
     jest: bin/jest.js
   checksum: 6b4c0af3b5a0fddee46e26c9a539d70a3945700c20444ad3568e14faba27e89671f972dfaa8a02225c4e02b6d422171535660f5e167b1eb765a0922aea82533b
+  languageName: node
+  linkType: hard
+
+"jiti@npm:^1.20.0":
+  version: 1.21.0
+  resolution: "jiti@npm:1.21.0"
+  bin:
+    jiti: bin/jiti.js
+  checksum: a7bd5d63921c170eaec91eecd686388181c7828e1fa0657ab374b9372bfc1f383cf4b039e6b272383d5cb25607509880af814a39abdff967322459cca41f2961
   languageName: node
   linkType: hard
 
@@ -19113,17 +19139,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:7.0.1":
-  version: 7.0.1
-  resolution: "postcss-loader@npm:7.0.1"
+"postcss-loader@npm:7.3.4":
+  version: 7.3.4
+  resolution: "postcss-loader@npm:7.3.4"
   dependencies:
-    cosmiconfig: ^7.0.0
-    klona: ^2.0.5
-    semver: ^7.3.7
+    cosmiconfig: ^8.3.5
+    jiti: ^1.20.0
+    semver: ^7.5.4
   peerDependencies:
     postcss: ^7.0.0 || ^8.0.1
     webpack: ^5.0.0
-  checksum: 2a3cbcaaade598d4919824d384ae34ffbfc14a9c8db6cc3b154582356f4f44a1c9af9e731b81cf1947b089accf7d0ab7a0c51c717946985f89aa1708d2b4304d
+  checksum: f109eb266580eb296441a1ae057f93629b9b79ad962bdd3fc134417180431606a5419b6f5848c31e6d92c818e71fe96e4335a85cc5332c2f7b14e2869951e5b3
   languageName: node
   linkType: hard
 
@@ -21708,6 +21734,17 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: ba9c7cbbf2b7884696523450a61fee1a09930d888b7a8d7579025ad93d459b2d1949ee5bbfeb188b2be5f4ac163544c5e98491ad6152df34154feebc2cc337c1
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.5.4":
+  version: 7.5.4
+  resolution: "semver@npm:7.5.4"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: 12d8ad952fa353b0995bf180cdac205a4068b759a140e5d3c608317098b3575ac2f1e09182206bf2eb26120e1c0ed8fb92c48c592f6099680de56bb071423ca3
   languageName: node
   linkType: hard
 
